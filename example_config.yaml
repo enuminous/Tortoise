@@ -1,0 +1,23 @@
+machine: TORTOISE-M1
+version: 1.0.0
+random_state: 23
+
+normalization:
+  method: robust
+
+temporal_horizons:
+  - 1
+  - 3
+  - 7
+  - 23
+
+recursive_core:
+  iterations: 3
+  lambda: 0.5
+
+primary_metric:
+  name: brier_score
+  direction: lower_is_better
+
+freeze:
+  hash: sha256

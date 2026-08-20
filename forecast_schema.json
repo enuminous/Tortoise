@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TORTOISE Forecast Freeze Record",
+  "type": "object",
+  "required": [
+    "forecast_id",
+    "machine_version",
+    "timestamp",
+    "information_cutoff",
+    "target",
+    "resolution_rule",
+    "probability"
+  ],
+  "properties": {
+    "forecast_id": {
+      "type": "string"
+    },
+    "machine_version": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "information_cutoff": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "target": {
+      "type": "string"
+    },
+    "resolution_date": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "probability": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "resolution_rule": {
+      "type": "string"
+    },
+    "invalidation_rule": {
+      "type": "string"
+    },
+    "habitat": {
+      "type": "object",
+      "properties": {
+        "TD": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4
+        },
+        "PO": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4
+        },
+        "FB": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4
+        },
+        "CT": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4
+        },
+        "DS": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4
+        },
+        "NZ": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "TORTOISE: Temporal Out-of-sample Recursive Testing of Operational Information Structure through Exclusion"
+message: "If you use TORTOISE in research, please cite this repository."
+type: software
+authors:
+  - family-names: Wright
+    given-names: Matthew C.
+date-released: 2026-08-20
+version: 1.0.0
+license: MIT
