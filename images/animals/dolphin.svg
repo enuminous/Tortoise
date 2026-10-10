@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Dolphin — animal and equation</title>
+<desc id="desc">Code-drawn vector portrait of Dolphin, with its source equation wrapped around it. Source: enuminous/Dolphin/features.py.</desc>
+<defs>
+ <radialGradient id="bg" cx="50%" cy="44%" r="78%"><stop offset="0" stop-color="#172b2b"/><stop offset="1" stop-color="#091314"/></radialGradient>
+ <linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#93aa87"/><stop offset="1" stop-color="#45634e"/></linearGradient>
+ <path id="upper" d="M165 440 C185 235 362 152 600 145 C838 152 1015 235 1035 440"/>
+ <path id="lower" d="M165 460 C185 648 362 731 600 738 C838 731 1015 648 1035 460"/>
+</defs>
+<rect width="1200" height="900" rx="34" fill="url(#bg)"/>
+<ellipse cx="600" cy="440" rx="505" ry="345" fill="none" stroke="#c99e52" stroke-opacity=".28" stroke-width="1.6"/>
+<ellipse cx="600" cy="440" rx="355" ry="224" fill="none" stroke="#8fb3a1" stroke-opacity=".25" stroke-width="1.4" stroke-dasharray="3 11"/>
+<text fill="#f5d991" font-family="Georgia, 'Times New Roman', serif" font-size="20" letter-spacing=".4"><textPath href="#upper" xlink:href="#upper" startOffset="50%" text-anchor="middle">rₜ=x_target−x_source(t−ℓ); zₜ=|rₜ−med_w(r)|/(1.4826·MAD_w+ε)</textPath></text>
+<text fill="#a9c8b7" font-family="Georgia, 'Times New Roman', serif" font-size="20" letter-spacing=".25"><textPath href="#lower" xlink:href="#lower" startOffset="50%" text-anchor="middle">latent velocityₜ=Δ(mean relational residual); accelerationₜ=Δvelocityₜ</textPath></text>
+<g transform="translate(600 430)" stroke-linejoin="round" stroke-linecap="round"><path d="M-235 5 Q-170 -83 -22 -67 Q100 -57 156 -11 Q194 5 223 0 Q190 19 164 26 Q80 88 -50 63 Q-165 48 -235 5Z" fill="url(#body)" stroke="#f0d991" stroke-width="4"/><path d="M-218 4 Q-245 -51 -269 -67 Q-261 -24 -289 3 Q-258 27 -267 64 Q-238 43 -218 4Z" fill="url(#body)" stroke="#f0d991" stroke-width="4"/><path d="M-8 -55 Q16 -117 63 -115 L45 -49 M4 48 Q40 89 72 95 L45 43" fill="url(#body)" stroke="#f0d991" stroke-width="4"/><circle cx="145" cy="-22" r="6" fill="#12201d"/><circle cx="147" cy="-24" r="2" fill="#fff4cf"/><path d="M175 -7 Q230 -4 256 -29 Q244 -1 215 12 Q242 31 255 46 Q215 34 176 22Z" fill="url(#body)" stroke="#f0d991" stroke-width="3"/></g>
+<g font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+ <text x="600" y="796" fill="#f0d78e" font-size="25" letter-spacing="5">DOLPHIN</text>
+ <text x="600" y="830" fill="#adc4b3" font-size="15" letter-spacing="1.8">enuminous/Dolphin</text>
+ <text x="600" y="855" fill="#718981" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">SOURCE: features.py · BLOB 26051c47c07a</text>
+ 
+</g>
+</svg>

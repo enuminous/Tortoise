@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Termite — animal and equation</title>
+<desc id="desc">Code-drawn vector portrait of Termite, with its source equation wrapped around it. Source: enuminous/Termite/termite.py.</desc>
+<defs>
+ <radialGradient id="bg" cx="50%" cy="44%" r="78%"><stop offset="0" stop-color="#172b2b"/><stop offset="1" stop-color="#091314"/></radialGradient>
+ <linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#93a3c7"/><stop offset="1" stop-color="#45634e"/></linearGradient>
+ <path id="upper" d="M165 440 C185 235 362 152 600 145 C838 152 1015 235 1035 440"/>
+ <path id="lower" d="M165 460 C185 648 362 731 600 738 C838 731 1015 648 1035 460"/>
+</defs>
+<rect width="1200" height="900" rx="34" fill="url(#bg)"/>
+<ellipse cx="600" cy="440" rx="505" ry="345" fill="none" stroke="#c99e52" stroke-opacity=".28" stroke-width="1.6"/>
+<ellipse cx="600" cy="440" rx="355" ry="224" fill="none" stroke="#8fb3a1" stroke-opacity=".25" stroke-width="1.4" stroke-dasharray="3 11"/>
+<text fill="#f5d991" font-family="Georgia, 'Times New Roman', serif" font-size="20" letter-spacing=".4"><textPath href="#upper" xlink:href="#upper" startOffset="50%" text-anchor="middle">targetᵢ=Σⱼwᵢⱼsⱼ/Σⱼwᵢⱼ</textPath></text>
+<text fill="#a9c8b7" font-family="Georgia, 'Times New Roman', serif" font-size="20" letter-spacing=".25"><textPath href="#lower" xlink:href="#lower" startOffset="50%" text-anchor="middle">s′ᵢ=clip((1−χᵢ)sᵢ+χᵢtargetᵢ+biasᵢ)</textPath></text>
+<g transform="translate(600 430)" stroke-linejoin="round" stroke-linecap="round"><ellipse cx="-59" cy="12" rx="49" ry="42" fill="url(#body)" stroke="#f0d991" stroke-width="4"/><ellipse cx="0" cy="0" rx="35" ry="32" fill="url(#body)" stroke="#f0d991" stroke-width="4"/><circle cx="51" cy="-26" r="31" fill="url(#body)" stroke="#f0d991" stroke-width="4"/><path d="M-24 0 L-42 87 M0 0 L0 99 M24 0 L42 87 M-28 -41 L-66 -83 M28 -41 L66 -83 M-4 -94 Q-27 -137 -50 -132 M4 -94 Q27 -137 50 -132" fill="none" stroke="#f0d991" stroke-width="6" stroke-linecap="round"/><circle cx="59" cy="-32" r="5" fill="#17201e"/></g>
+<g font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+ <text x="600" y="796" fill="#f0d78e" font-size="25" letter-spacing="5">TERMITE</text>
+ <text x="600" y="830" fill="#adc4b3" font-size="15" letter-spacing="1.8">enuminous/Termite</text>
+ <text x="600" y="855" fill="#718981" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">SOURCE: termite.py · BLOB d4626ff1dc99</text>
+ 
+</g>
+</svg>

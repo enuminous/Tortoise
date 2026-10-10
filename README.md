@@ -210,3 +210,10 @@ MIT.
 ## Status
 
 Research software. Experimental. Not validated for medical, safety-critical, financial, or autonomous decision-making.
+
+
+## Zoo animal equation illustrations
+
+The SVGs in [`images/animals/`](images/animals/) pair code-drawn animal portraits with the operation equations wrapped around them. The art is authored as SVG paths and text; no image-generation model is used. [`provenance.json`](images/animals/provenance.json) maps each formula to its source repository, file, and source blob. Harlequinn has no documented species or operation definition; its equation is marked **N/A**, and its fish depiction is explicitly provisional.
+
+The images can be regenerated with [`scripts/build_animal_images.py`](scripts/build_animal_images.py); existing images, including the original Tortoise illustration, are preserved by default.

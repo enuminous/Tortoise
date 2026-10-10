@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Turtle — animal and equation</title>
+<desc id="desc">Code-drawn vector portrait of Turtle, with its source equation wrapped around it. Source: enuminous/Turtle/normalize.py.</desc>
+<defs>
+ <radialGradient id="bg" cx="50%" cy="44%" r="78%"><stop offset="0" stop-color="#172b2b"/><stop offset="1" stop-color="#091314"/></radialGradient>
+ <linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#bc8c72"/><stop offset="1" stop-color="#45634e"/></linearGradient>
+ <path id="upper" d="M165 440 C185 235 362 152 600 145 C838 152 1015 235 1035 440"/>
+ <path id="lower" d="M165 460 C185 648 362 731 600 738 C838 731 1015 648 1035 460"/>
+</defs>
+<rect width="1200" height="900" rx="34" fill="url(#bg)"/>
+<ellipse cx="600" cy="440" rx="505" ry="345" fill="none" stroke="#c99e52" stroke-opacity=".28" stroke-width="1.6"/>
+<ellipse cx="600" cy="440" rx="355" ry="224" fill="none" stroke="#8fb3a1" stroke-opacity=".25" stroke-width="1.4" stroke-dasharray="3 11"/>
+<text fill="#f5d991" font-family="Georgia, 'Times New Roman', serif" font-size="20" letter-spacing=".4"><textPath href="#upper" xlink:href="#upper" startOffset="50%" text-anchor="middle">wᵢ = clip(confidenceᵢ)·clip(provenanceᵢ)·replicationᵢ</textPath></text>
+<text fill="#a9c8b7" font-family="Georgia, 'Times New Roman', serif" font-size="20" letter-spacing=".25"><textPath href="#lower" xlink:href="#lower" startOffset="50%" text-anchor="middle">effectᵢ = tanh(raw effectᵢ / scale); group-adjust before synthesis</textPath></text>
+<g transform="translate(600 430)" stroke-linejoin="round" stroke-linecap="round"><path d="M-142 35 Q-126 -115 0 -124 Q129 -112 145 35 Q89 79 0 80 Q-86 78 -142 35Z" fill="url(#body)" stroke="#f0d991" stroke-width="5"/><path d="M-83 -84 Q-55 -31 -75 34 M0 -120 Q-20 -49 0 75 M83 -84 Q55 -31 75 34 M-124 -35 Q-60 -15 0 -30 Q62 -15 126 -35" fill="none" stroke="#e4c778" stroke-width="4"/><path d="M-109 30 L-169 76 L-143 18 M-50 69 L-79 119 L-26 76 M50 69 L79 119 L26 76 M109 30 L169 76 L143 18" fill="url(#body)" stroke="#f0d991" stroke-width="5"/><path d="M133 -2 Q180 -39 212 -12 Q232 7 209 30 Q183 50 149 25Z" fill="url(#body)" stroke="#f0d991" stroke-width="4"/><circle cx="207" cy="-5" r="6" fill="#17201e"/></g>
+<g font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+ <text x="600" y="796" fill="#f0d78e" font-size="25" letter-spacing="5">TURTLE</text>
+ <text x="600" y="830" fill="#adc4b3" font-size="15" letter-spacing="1.8">enuminous/Turtle</text>
+ <text x="600" y="855" fill="#718981" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">SOURCE: normalize.py · BLOB b26302ddfa85</text>
+ 
+</g>
+</svg>

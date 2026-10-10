@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Chameleon — animal and equation</title>
+<desc id="desc">Code-drawn vector portrait of Chameleon, with its source equation wrapped around it. Source: enuminous/Chameleon/chameleon.py.</desc>
+<defs>
+ <radialGradient id="bg" cx="50%" cy="44%" r="78%"><stop offset="0" stop-color="#172b2b"/><stop offset="1" stop-color="#091314"/></radialGradient>
+ <linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#93aa87"/><stop offset="1" stop-color="#45634e"/></linearGradient>
+ <path id="upper" d="M165 440 C185 235 362 152 600 145 C838 152 1015 235 1035 440"/>
+ <path id="lower" d="M165 460 C185 648 362 731 600 738 C838 731 1015 648 1035 460"/>
+</defs>
+<rect width="1200" height="900" rx="34" fill="url(#bg)"/>
+<ellipse cx="600" cy="440" rx="505" ry="345" fill="none" stroke="#c99e52" stroke-opacity=".28" stroke-width="1.6"/>
+<ellipse cx="600" cy="440" rx="355" ry="224" fill="none" stroke="#8fb3a1" stroke-opacity=".25" stroke-width="1.4" stroke-dasharray="3 11"/>
+<text fill="#f5d991" font-family="Georgia, 'Times New Roman', serif" font-size="20" letter-spacing=".4"><textPath href="#upper" xlink:href="#upper" startOffset="50%" text-anchor="middle">between=mean pairwise distance(context centroids)</textPath></text>
+<text fill="#a9c8b7" font-family="Georgia, 'Times New Roman', serif" font-size="20" letter-spacing=".25"><textPath href="#lower" xlink:href="#lower" startOffset="50%" text-anchor="middle">noise-adjusted divergence=max(0, between−mean within-context distance)</textPath></text>
+<g transform="translate(600 430)" stroke-linejoin="round" stroke-linecap="round"><ellipse cx="-14" cy="10" rx="116" ry="45" fill="url(#body)" stroke="#f0d991" stroke-width="4"/><path d="M80 2 Q127 -42 175 -26 Q206 -14 215 1 Q188 28 145 25 L88 25Z" fill="url(#body)" stroke="#f0d991" stroke-width="4"/><path d="M-100 15 Q-165 5 -201 48 Q-227 80 -205 92 Q-177 105 -171 75 Q-167 59 -145 68" fill="none" stroke="url(#body)" stroke-width="22" stroke-linecap="round"/><path d="M-100 15 Q-165 5 -201 48 Q-227 80 -205 92 Q-177 105 -171 75 Q-167 59 -145 68" fill="none" stroke="#f0d991" stroke-width="3"/><path d="M-78 36 L-121 83 L-157 87 M-33 42 L-12 92 L15 103 M48 36 L76 80 L108 86 M74 17 L123 57 L153 56" fill="none" stroke="#f0d991" stroke-width="8" stroke-linecap="round"/><circle cx="190" cy="-10" r="6" fill="#12201d"/><circle cx="168" cy="-48" r="23" fill="url(#body)" stroke="#f0d991" stroke-width="4"/><circle cx="168" cy="-50" r="7" fill="#17201e"/><path d="M206 5 Q244 0 251 19 Q257 36 236 37" fill="none" stroke="#db7564" stroke-width="5"/></g>
+<g font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+ <text x="600" y="796" fill="#f0d78e" font-size="25" letter-spacing="5">CHAMELEON</text>
+ <text x="600" y="830" fill="#adc4b3" font-size="15" letter-spacing="1.8">enuminous/Chameleon</text>
+ <text x="600" y="855" fill="#718981" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">SOURCE: chameleon.py · BLOB 53504f8050ca</text>
+ 
+</g>
+</svg>

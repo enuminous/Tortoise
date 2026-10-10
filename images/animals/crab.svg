@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Crab — animal and equation</title>
+<desc id="desc">Code-drawn vector portrait of Crab, with its source equation wrapped around it. Source: enuminous/Crab/features.py.</desc>
+<defs>
+ <radialGradient id="bg" cx="50%" cy="44%" r="78%"><stop offset="0" stop-color="#172b2b"/><stop offset="1" stop-color="#091314"/></radialGradient>
+ <linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d1a45c"/><stop offset="1" stop-color="#45634e"/></linearGradient>
+ <path id="upper" d="M165 440 C185 235 362 152 600 145 C838 152 1015 235 1035 440"/>
+ <path id="lower" d="M165 460 C185 648 362 731 600 738 C838 731 1015 648 1035 460"/>
+</defs>
+<rect width="1200" height="900" rx="34" fill="url(#bg)"/>
+<ellipse cx="600" cy="440" rx="505" ry="345" fill="none" stroke="#c99e52" stroke-opacity=".28" stroke-width="1.6"/>
+<ellipse cx="600" cy="440" rx="355" ry="224" fill="none" stroke="#8fb3a1" stroke-opacity=".25" stroke-width="1.4" stroke-dasharray="3 11"/>
+<text fill="#f5d991" font-family="Georgia, 'Times New Roman', serif" font-size="20" letter-spacing=".4"><textPath href="#upper" xlink:href="#upper" startOffset="50%" text-anchor="middle">rₜ=xₐ−x_b; contradictionₜ=|rₜ−med_w(r)|/(1.4826·MAD_w+ε)</textPath></text>
+<text fill="#a9c8b7" font-family="Georgia, 'Times New Roman', serif" font-size="20" letter-spacing=".25"><textPath href="#lower" xlink:href="#lower" startOffset="50%" text-anchor="middle">crab_scoreₜ = rank-aggregate(contradiction, velocity, consensus instability)</textPath></text>
+<g transform="translate(600 430)" stroke-linejoin="round" stroke-linecap="round"><ellipse cx="0" cy="20" rx="119" ry="74" fill="url(#body)" stroke="#f0d991" stroke-width="5"/><path d="M-100 8 Q0 -35 100 8 M-78 40 Q0 3 78 40" fill="none" stroke="#f2d58a" stroke-width="4"/><path d="M-80 67 L-133 114 L-164 109 M-45 80 L-77 136 L-111 145 M0 89 L-8 151 M45 80 L76 136 L109 145 M80 67 L132 114 L163 109" fill="none" stroke="#f0d991" stroke-width="9" stroke-linecap="round"/><path d="M-104 -11 Q-157 -77 -183 -33 L-167 -5 L-202 7 Q-174 39 -143 13 M104 -11 Q157 -77 183 -33 L167 -5 L202 7 Q174 39 143 13" fill="url(#body)" stroke="#f0d991" stroke-width="5"/><circle cx="-39" cy="-39" r="7" fill="#17201e"/><circle cx="39" cy="-39" r="7" fill="#17201e"/></g>
+<g font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+ <text x="600" y="796" fill="#f0d78e" font-size="25" letter-spacing="5">CRAB</text>
+ <text x="600" y="830" fill="#adc4b3" font-size="15" letter-spacing="1.8">enuminous/Crab</text>
+ <text x="600" y="855" fill="#718981" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">SOURCE: features.py · BLOB aea19e73a427</text>
+ 
+</g>
+</svg>

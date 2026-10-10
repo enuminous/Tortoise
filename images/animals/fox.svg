@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Fox — animal and equation</title>
+<desc id="desc">Code-drawn vector portrait of Fox, with its source equation wrapped around it. Source: enuminous/Fox/features.py.</desc>
+<defs>
+ <radialGradient id="bg" cx="50%" cy="44%" r="78%"><stop offset="0" stop-color="#172b2b"/><stop offset="1" stop-color="#091314"/></radialGradient>
+ <linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9daf78"/><stop offset="1" stop-color="#45634e"/></linearGradient>
+ <path id="upper" d="M165 440 C185 235 362 152 600 145 C838 152 1015 235 1035 440"/>
+ <path id="lower" d="M165 460 C185 648 362 731 600 738 C838 731 1015 648 1035 460"/>
+</defs>
+<rect width="1200" height="900" rx="34" fill="url(#bg)"/>
+<ellipse cx="600" cy="440" rx="505" ry="345" fill="none" stroke="#c99e52" stroke-opacity=".28" stroke-width="1.6"/>
+<ellipse cx="600" cy="440" rx="355" ry="224" fill="none" stroke="#8fb3a1" stroke-opacity=".25" stroke-width="1.4" stroke-dasharray="3 11"/>
+<text fill="#f5d991" font-family="Georgia, 'Times New Roman', serif" font-size="20" letter-spacing=".4"><textPath href="#upper" xlink:href="#upper" startOffset="50%" text-anchor="middle">feedbackₜ = mean₍a≠b,ℓ₎ |corr_w(xₐ,t, x_b,t−ℓ)|</textPath></text>
+<text fill="#a9c8b7" font-family="Georgia, 'Times New Roman', serif" font-size="20" letter-spacing=".25"><textPath href="#lower" xlink:href="#lower" startOffset="50%" text-anchor="middle">fox_riskₜ = meanⱼ(rankₚ(feedback, oscillation, damping, overshoot))</textPath></text>
+<g transform="translate(600 430)" stroke-linejoin="round" stroke-linecap="round"><ellipse cx="-5" cy="20" rx="132" ry="65" fill="url(#body)" stroke="#f0d991" stroke-width="4"/><path d="M55 3 Q89 -54 130 -48 L151 -15 Q128 18 95 34Z" fill="url(#body)" stroke="#f0d991" stroke-width="4"/><ellipse cx="145" cy="-48" rx="52" ry="43" fill="url(#body)" stroke="#f0d991" stroke-width="4"/><path d="M177 -34 L220 -20 L180 -7Z" fill="url(#body)" stroke="#f0d991" stroke-width="3"/><path d="M-94 58 L-91 123 Q-92 141 -108 143 Q-126 142 -125 123 L-121 52 M-40 73 L-34 128 Q-34 144 -51 145 Q-68 144 -68 128 L-69 66 M45 68 L49 128 Q49 144 32 145 Q15 143 16 127 L15 60 M94 47 L104 119 Q106 138 89 141 Q72 140 70 122 L63 48" fill="url(#body)" stroke="#f0d991" stroke-width="5" stroke-linecap="round"/><path d="M-132 4 Q-174 -18 -181 8 Q-181 29 -155 31" fill="none" stroke="#f0d991" stroke-width="8" stroke-linecap="round"/><circle cx="158" cy="-57" r="6" fill="#12201d"/><circle cx="160" cy="-59" r="2" fill="#fff4cf"/><path d="M112 -79 L105 -128 L142 -91Z M155 -87 L181 -123 L187 -76Z" fill="url(#body)" stroke="#f0d991" stroke-width="4"/><path d="M-151 8 Q-215 -32 -248 13 Q-226 62 -163 37Z" fill="url(#body)" stroke="#f0d991" stroke-width="4"/></g>
+<g font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+ <text x="600" y="796" fill="#f0d78e" font-size="25" letter-spacing="5">FOX</text>
+ <text x="600" y="830" fill="#adc4b3" font-size="15" letter-spacing="1.8">enuminous/Fox</text>
+ <text x="600" y="855" fill="#718981" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">SOURCE: features.py · BLOB bf4a45f03353</text>
+ 
+</g>
+</svg>

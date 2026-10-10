@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Owl — animal and equation</title>
+<desc id="desc">Code-drawn vector portrait of Owl, with its source equation wrapped around it. Source: enuminous/Owl/signals.py.</desc>
+<defs>
+ <radialGradient id="bg" cx="50%" cy="44%" r="78%"><stop offset="0" stop-color="#172b2b"/><stop offset="1" stop-color="#091314"/></radialGradient>
+ <linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d1a45c"/><stop offset="1" stop-color="#45634e"/></linearGradient>
+ <path id="upper" d="M165 440 C185 235 362 152 600 145 C838 152 1015 235 1035 440"/>
+ <path id="lower" d="M165 460 C185 648 362 731 600 738 C838 731 1015 648 1035 460"/>
+</defs>
+<rect width="1200" height="900" rx="34" fill="url(#bg)"/>
+<ellipse cx="600" cy="440" rx="505" ry="345" fill="none" stroke="#c99e52" stroke-opacity=".28" stroke-width="1.6"/>
+<ellipse cx="600" cy="440" rx="355" ry="224" fill="none" stroke="#8fb3a1" stroke-opacity=".25" stroke-width="1.4" stroke-dasharray="3 11"/>
+<text fill="#f5d991" font-family="Georgia, 'Times New Roman', serif" font-size="20" letter-spacing=".4"><textPath href="#upper" xlink:href="#upper" startOffset="50%" text-anchor="middle">zₜ=(xₜ−med_w(x))/(1.4826·MAD_w(x)+ε)</textPath></text>
+<text fill="#a9c8b7" font-family="Georgia, 'Times New Roman', serif" font-size="20" letter-spacing=".25"><textPath href="#lower" xlink:href="#lower" startOffset="50%" text-anchor="middle">owl_warningₜ = mean(rankₚ(componentₜ))</textPath></text>
+<g transform="translate(600 430)" stroke-linejoin="round" stroke-linecap="round"><ellipse cx="-5" cy="10" rx="100" ry="67" fill="url(#body)" stroke="#f0d991" stroke-width="4"/><path d="M-30 6 Q10 -72 80 -39 Q48 8 8 46 Q-2 20 -30 6Z" fill="#526854" stroke="#f0d991" stroke-width="4"/><circle cx="72" cy="-48" r="43" fill="url(#body)" stroke="#f0d991" stroke-width="4"/><path d="M109 -50 L169 -37 L108 -25Z" fill="#d59748" stroke="#f0d991" stroke-width="3"/><path d="M-95 -4 L-165 -42 L-135 8 L-167 48 L-86 31Z" fill="url(#body)" stroke="#f0d991" stroke-width="4"/><path d="M-42 72 L-48 123 M22 74 L27 123 M-67 125 L-40 125 M8 125 L39 125" fill="none" stroke="#f0d991" stroke-width="6" stroke-linecap="round"/><circle cx="83" cy="-55" r="6" fill="#12201d"/><circle cx="85" cy="-57" r="2" fill="#fff4cf"/><path d="M49 -78 Q31 -132 58 -106 L76 -79 M90 -81 Q111 -135 116 -99 L104 -67" fill="url(#body)" stroke="#f0d991" stroke-width="4"/><circle cx="60" cy="-48" r="20" fill="none" stroke="#ead9a7" stroke-width="5"/><circle cx="101" cy="-48" r="20" fill="none" stroke="#ead9a7" stroke-width="5"/><path d="M81 -28 L74 -9 L88 -28Z" fill="#e3b655"/></g>
+<g font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+ <text x="600" y="796" fill="#f0d78e" font-size="25" letter-spacing="5">OWL</text>
+ <text x="600" y="830" fill="#adc4b3" font-size="15" letter-spacing="1.8">enuminous/Owl</text>
+ <text x="600" y="855" fill="#718981" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">SOURCE: signals.py · BLOB aa76928cc0c7</text>
+ 
+</g>
+</svg>
