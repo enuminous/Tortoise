@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">TORTOISE — recursive state update</title>
+  <desc id="desc">A hand-drawn vector tortoise intertwined with the recursive state update used by the TORTOISE model.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="78%">
+      <stop offset="0" stop-color="#172b2b"/>
+      <stop offset="1" stop-color="#091314"/>
+    </radialGradient>
+    <linearGradient id="shell" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d5a751"/>
+      <stop offset=".48" stop-color="#8c6734"/>
+      <stop offset="1" stop-color="#4e472c"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a5b66f"/>
+      <stop offset="1" stop-color="#56734e"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <path id="upper-orbit" d="M 165 440 C 185 235 362 152 600 145 C 838 152 1015 235 1035 440"/>
+    <path id="lower-orbit" d="M 165 460 C 185 648 362 731 600 738 C 838 731 1015 648 1035 460"/>
+    <pattern id="shell-scute" width="72" height="58" patternUnits="userSpaceOnUse">
+      <path d="M0 29 Q18 0 36 0 Q54 0 72 29 Q54 58 36 58 Q18 58 0 29Z" fill="none" stroke="#f0cd79" stroke-opacity=".54" stroke-width="2"/>
+      <circle cx="36" cy="29" r="2.5" fill="#f0cd79" fill-opacity=".7"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="900" rx="34" fill="url(#bg)"/>
+  <ellipse cx="600" cy="440" rx="505" ry="345" fill="none" stroke="#c99e52" stroke-opacity=".22" stroke-width="1.5"/>
+  <ellipse cx="600" cy="440" rx="355" ry="224" fill="none" stroke="#8fb3a1" stroke-opacity=".22" stroke-width="1.5" stroke-dasharray="3 11"/>
+
+  <g fill="#afc8b0" opacity=".62">
+    <circle cx="105" cy="405" r="4"/><circle cx="1095" cy="405" r="4"/>
+    <circle cx="600" cy="95" r="4"/><circle cx="600" cy="785" r="4"/>
+  </g>
+
+  <text fill="#f5d991" font-family="Georgia, 'Times New Roman', serif" font-size="23" letter-spacing=".4" filter="url(#glow)">
+    <textPath href="#upper-orbit" xlink:href="#upper-orbit" startOffset="50%" text-anchor="middle">sₜ⁽⁰⁾ = (Cₜ, ΔCₜ, Δ²Cₜ)</textPath>
+  </text>
+  <text fill="#a9c8b7" font-family="Georgia, 'Times New Roman', serif" font-size="19" letter-spacing=".2">
+    <textPath href="#lower-orbit" xlink:href="#lower-orbit" startOffset="50%" text-anchor="middle">sₜ⁽ᵏ⁺¹⁾ = ½sₜ⁽ᵏ⁾ + ½ tanh(sₜ⁽ᵏ⁾ + rₜ₋₁) · k = 0, 1, 2 · rₜ = sₜ⁽³⁾</textPath>
+  </text>
+
+  <!-- Tortoise drawn in SVG; no raster/generated image is used. -->
+  <g transform="translate(0 18)" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Tail -->
+    <path d="M363 521 Q324 531 302 557 Q330 551 355 551Z" fill="#68804e" stroke="#d4c078" stroke-width="3"/>
+    <!-- Four armored legs -->
+    <g fill="url(#skin)" stroke="#d1c27e" stroke-width="3">
+      <path d="M424 523 Q400 531 394 560 L382 606 Q379 628 397 635 Q420 641 433 622 L453 568Z"/>
+      <path d="M514 535 Q495 543 494 569 L487 610 Q487 631 506 637 Q529 640 539 619 L547 567Z"/>
+      <path d="M704 535 Q726 540 733 565 L747 607 Q751 630 731 637 Q709 640 698 618 L682 565Z"/>
+      <path d="M786 519 Q809 527 815 554 L829 592 Q831 615 812 623 Q789 628 778 607 L763 558Z"/>
+    </g>
+    <g fill="#d6cd91" opacity=".8">
+      <path d="M388 604l9 3-5 15-9-3zM414 610l9 3-5 15-9-3zM495 606l9 2-3 16-10-2zM519 609l9 2-3 16-10-2z"/>
+      <path d="M718 608l10-2 4 15-10 3zM741 605l10-2 4 15-10 3zM793 590l10-3 5 15-10 3zM816 584l10-3 5 15-10 3z"/>
+    </g>
+    <!-- Neck and head -->
+    <path d="M734 457 Q785 437 824 451 Q855 462 878 483 L855 514 Q818 530 775 514 L726 499Z" fill="url(#skin)" stroke="#d1c27e" stroke-width="4"/>
+    <path d="M824 450 Q855 435 886 446 Q918 458 923 484 Q927 508 904 522 Q877 535 848 518 L824 500Z" fill="url(#skin)" stroke="#d1c27e" stroke-width="4"/>
+    <ellipse cx="888" cy="475" rx="8" ry="10" fill="#11201c"/>
+    <circle cx="890" cy="472" r="2.5" fill="#f4e9bc"/>
+    <path d="M910 499 Q901 506 887 502" fill="none" stroke="#344b3b" stroke-width="3"/>
+    <g fill="#c4cf8a" opacity=".75"><circle cx="851" cy="459" r="3"/><circle cx="869" cy="451" r="2.5"/><circle cx="838" cy="486" r="3"/><circle cx="861" cy="514" r="2.5"/></g>
+    <!-- Shell dome and plastron -->
+    <path d="M349 519 Q359 414 429 370 Q489 332 582 332 Q681 330 744 376 Q797 417 808 510 Q752 546 685 554 L453 553 Q393 548 349 519Z" fill="url(#shell)" stroke="#f1d38d" stroke-width="5"/>
+    <path d="M364 504 Q375 418 438 383 Q496 352 582 351 Q668 350 727 390 Q774 423 789 503 Q738 529 681 536 L456 536 Q405 532 364 504Z" fill="url(#shell-scute)" stroke="#4e472c" stroke-opacity=".8" stroke-width="3"/>
+    <path d="M354 520 Q432 548 573 549 Q710 550 803 516 L797 539 Q708 571 577 569 Q439 567 365 540Z" fill="#615333" stroke="#d8bd77" stroke-width="3"/>
+    <!-- Scute seams -->
+    <g fill="none" stroke="#f0cd79" stroke-opacity=".75" stroke-width="3">
+      <path d="M581 352 Q555 391 558 438 Q561 492 576 536"/>
+      <path d="M437 383 Q475 413 483 453 Q490 493 456 536"/>
+      <path d="M727 390 Q690 414 681 455 Q673 498 710 532"/>
+      <path d="M382 444 Q430 461 480 453 M688 455 Q736 464 779 447"/>
+    </g>
+    <g fill="#f3d890" opacity=".78">
+      <circle cx="581" cy="410" r="4"/><circle cx="456" cy="458" r="3.5"/><circle cx="711" cy="463" r="3.5"/>
+    </g>
+  </g>
+
+  <g font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+    <text x="600" y="796" fill="#f0d78e" font-size="25" letter-spacing="5">TORTOISE</text>
+    <text x="600" y="830" fill="#adc4b3" font-size="16" letter-spacing="2.2">FREEZE · PREDICT · SCORE · ABLATE · REPLICATE</text>
+    <text x="600" y="862" fill="#718981" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">MODEL SOURCE: enuminous/Tortoise · model_full.py · recursive update, 3 iterations</text>
+  </g>
+</svg>
